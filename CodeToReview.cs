@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Collegctions.Generic;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace Utility.Valocity.ProfileHelper
