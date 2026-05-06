@@ -64,14 +64,14 @@ namespace Utility.Valocity.ProfileHelper
             return _people.Where(x => x.Name == "Bob");
         }
 
-        public string GetMarried(People p, string lastName)
+        public string GetMarried(People people, string lastName)
         {
-            if (p == null) throw new ArgumentNullException(nameof(p));
+            if (people == null) throw new ArgumentNullException(nameof(people));
 
             if (string.IsNullOrEmpty(lastName) || lastName.Contains("test"))
-                return p.Name;
+                return people.Name;
 
-            var fullName = $"{p.Name} {lastName}";
+            var fullName = $"{people.Name} {lastName}";
 
             return fullName.Length > 255
                 ? fullName.Substring(0, 255)
