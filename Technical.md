@@ -23,3 +23,20 @@ Refactored implementation of the Gilded Rose kata using SOLID principles, Strate
 ```bash
 dotnet run --project GildedRose.Console
 ```
+
+## Run Tests
+
+```bash
+dotnet test
+```
+
+## Tech Stack
+
+- C#
+- .NET
+- xUnit
+
+## Notes
+
+The solution was designed with focus on readability, maintainability, and extensibility.  
+Modern development tools like chatgpt were used during exploration and refactoring to validate design approaches and improve development efficiency and writing better test cases.
